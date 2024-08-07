@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+    <meta name="author" content="AdminKit">
+    <meta name="keywords"
+        content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+    <link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+    <title></title>
+
+    <link rel="stylesheet" href="./assets/plugins/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar" class="sidebar js-sidebar">
+            <div class="sidebar-content js-simplebar">
+                <a class="sidebar-brand" href="index.html">
+                    <img src="./assets/imgs/Logo.png" alt="Logo 1" class="logo1" style="height: 30px;">
+                    <span class="align-self-center">AdminKit</span>
+                </a>
+                <hr> <!-- Horizontal line -->
+                <a class="sidebar-brand" href="index.html">
+                    <img src="./assets/imgs/avatar.png" alt="Logo 1" class="logo1" style="height: 30px;">
+                    <span class="align-self-center">Jagrati Mehta</span>
+                </a>
+                <hr> <!-- Horizontal line -->
+                <div class="icon-container">
+                    <div class="slider">
+                        <ul class="sidebar-nav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="dashbord.html">
+                                    <i class="fas fa-tachometer-alt align-middle"></i> <span
+                                        class="align-middle">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item active">
+                                <a class="sidebar-link" href="profile.html">
+                                    <i class="fas fa-user align-middle"></i> <span class="align-middle">Profile</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="signin.html">
+                                    <i class="fas fa-sign-in-alt align-middle"></i> <span class="align-middle">Sign
+                                        In</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="signup.html">
+                                    <i class="fas fa-user-plus align-middle"></i> <span class="align-middle">Sign
+                                        Up</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="Data.html">
+                                    <i class="fas fa-table align-middle"></i> <span class="align-middle">Data
+                                        Table</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="advanced.html">
+                                    <i class="fas fa-clipboard align-middle"></i> <span class="align-middle">Advanced
+                                        Form</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="charts.html">
+                                    <i class="fas fa-chart-bar align-middle"></i> <span
+                                        class="align-middle">Charts</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="notifications.html">
+                                    <i class="fas fa-bell align-middle"></i> <span
+                                        class="align-middle">Notifications</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main">
+            <nav class="navbar navbar-expand navbar-light navbar-bg">
+                <a class="sidebar-toggle js-sidebar-toggle">
+                    <i class="hamburger align-self-center"></i>
+                </a>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav navbar-align">
+                        <li class="nav-item">
+                            <button class="btn btn-outline-secondary" id="themeToggle">
+                                <i class="fas fa-moon" id="moonIcon"></i>
+                                <i class="fas fa-sun d-none" id="sunIcon"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                <div class="position-relative">
+                                    <i class="fas fa-bell align-middle"></i>
+                                    <span class="indicator">4</span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+                                aria-labelledby="alertsDropdown">
+                                <div class="dropdown-menu-header">
+                                    4 New Notifications
+                                </div>
+                                <div class="dropdown-menu-footer">
+                                    <a href="#" class="text-muted">Show all notifications</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown"
+                                data-bs-toggle="dropdown">
+                                <div class="position-relative">
+                                    <i class="fas fa-envelope align-middle"></i>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+                                aria-labelledby="messagesDropdown">
+                                <div class="dropdown-menu-header">
+                                    <div class="position-relative">
+                                        4 New Messages
+                                    </div>
+                                </div>
+                                <div class="list-group">
+                                    <!-- Messages can be added here -->
+                                </div>
+                                <div class="dropdown-menu-footer">
+                                    <a href="#" class="text-muted">Show all messages</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#"
+                                data-bs-toggle="dropdown">
+                                <i class="fas fa-cogs align-middle"></i>
+                            </a>
+                            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#"
+                                data-bs-toggle="dropdown">
+                                <img src="./assets/imgs/avatar.png" class="avatar img-fluid rounded me-1"
+                                    alt="Jagrati Mehta" /> <span class="text-dark">Jagrati Mehta</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="mb-6">
+                <iframe id="contentFrame" src="dashbord.html"
+                    style="width: 100%; height: 100vh; border: none;"></iframe>
+
+            </div>
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row text-muted">
+                        <div class="col-6 text-start">
+                            <p class="mb-0">
+                                <a class="text-muted" href="https://adminkit.io/"
+                                    target="_blank"><strong>AdminKit</strong></a> &copy;
+                            </p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Help</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./assets/plugins/js/script.js"></script>
+    <script>
+        // JavaScript to toggle dark/light mode
+        document.getElementById('themeToggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+            document.getElementById('moonIcon').classList.toggle('d-none');
+            document.getElementById('sunIcon').classList.toggle('d-none');
+        });
+
+        // JavaScript to load content in iframe
+        const sidebarLinks = document.querySelectorAll('.sidebar-link');
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.getElementById('contentFrame').src = this.href;
+            });
+        });
+    </script>
+</body>
+
+</html>

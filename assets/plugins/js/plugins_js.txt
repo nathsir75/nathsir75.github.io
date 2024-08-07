@@ -1,0 +1,7 @@
+add plugins JS here
+
+like 
+-- datatables
+-- custom
+-- chart
+-- Fontawesome

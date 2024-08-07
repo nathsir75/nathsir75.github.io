@@ -1,0 +1,193 @@
+.card {
+    margin-top: 20px;
+
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card .card-title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.card .form-group {
+    margin-top: 10px;
+}
+
+.card label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+.card h5 {
+    /* color: red; */
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+/* Card Header */
+.card-header {
+    background-color: #343a40;
+    color: #ffffff;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    justify-content: space-between;
+    /* Space between title and tools */
+    align-items: center;
+    /* Center align title and tools */
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    color: #fff;
+    padding: 0 10px;
+    margin-top: .31rem;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: rgba(255, 255, 255, .7) !important;
+    float: right !important;
+    border: none !important;
+    outline: none;
+    /* margin-left: 5px; */
+    /* margin-right: -2px; */
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    background-color: #007bff !important;
+    color: white !important;
+
+}
+
+/* Card Tools */
+.card-tools {
+    display: flex;
+    gap: 10px;
+    /* Space between icons */
+}
+
+.card-tools .btn-tool {
+    border: none;
+    /* Remove border */
+    background: none;
+    /* Remove background */
+}
+
+/* Minimize/Remove Animations */
+.card.collapsing,
+.card.collapsing .card-body .card-footer {
+    transition: height 0.5s ease;
+}
+
+.card.removing {
+    transition: height 0.5s ease;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.input-group-text {
+    height: 100%;
+    color: #495057;
+    background-color: #e9ecef !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.right {
+    /* background-color: red !important; */
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+
+.input-group input {
+    height: 100%;
+    width: 100%;
+}
+
+.card-body .bootstrap-switch:nth-of-type(2) .bootstrap-switch-handle-on {
+    background-color: green !important;
+}
+
+.card-body .bootstrap-switch:nth-of-type(2) .bootstrap-switch-handle-off {
+    background-color: red !important;
+    color: white !important;
+}
+
+.form-control:focus {
+    border-color: blue !important;
+    /* Removes the border color */
+    box-shadow: none !important;
+    /* Removes the shadow effect on focus */
+}
+
+.form-control {
+    border: none;
+    /* Removes the border */
+}
+
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode .card-body {
+    background-color: black;
+    color: white !important;
+
+}
+
+body.dark-mode .card-body i {
+    color: black !important;
+
+}
+
+body.dark-mode .form-control {
+    background-color: black;
+    color: white;
+    border: 1px solid #444444;
+}
+
+body.dark-mode .input-group-text {
+    background-color: black;
+    color: white;
+}
+
+.moveall,
+.removeall {
+    border: 1px solid #ccc !important;
+
+    &:hover {
+        background: #495057 !important;
+        color: white !important;
+    }
+}
+
+
+.moveall::after {
+    content: attr(title);
+
+}
+
+.removeall::after {
+    content: attr(title);
+}
+
+.form-control option {
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+}

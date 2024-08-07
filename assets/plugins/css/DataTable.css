@@ -1,0 +1,149 @@
+ /* Custom CSS to style DataTables pagination buttons to match Bootstrap btn-primary */
+ .dataTables_wrapper .dataTables_paginate .paginate_button {
+     display: inline-block !important;
+     padding: 0.375rem 0.75rem !important;
+     margin: 0 0.125rem !important;
+     font-size: 1rem !important;
+     line-height: 1.5 !important;
+     text-align: center !important;
+     text-decoration: none !important;
+     cursor: pointer !important;
+     border: 1px solid transparent !important;
+     border-radius: 0.25rem !important;
+     color: #fff !important;
+     background-color: #0d6efd !important;
+ }
+
+ .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+     background-color: #0b5ed7 !important;
+     border-color: #0b5ed7 !important;
+ }
+
+ .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+ .dataTables_wrapper .dataTables_paginate .paginate_button:active {
+     background-color: #0b5ed7 !important;
+     border-color: #0b5ed7 !important;
+ }
+
+ .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+     color: #6c757d !important;
+     /* Bootstrap btn-secondary text color */
+     background-color: #e9ecef !important;
+     /* Bootstrap btn-secondary background color */
+     border-color: #dee2e6 !important;
+     /* Bootstrap btn-secondary border color */
+     cursor: not-allowed !important;
+ }
+
+ /* Remove the outline border for active and hover states */
+ .dataTables_wrapper .dataTables_paginate .paginate_button:focus {
+     box-shadow: none !important;
+     outline: none !important;
+ }
+
+ /* Dark theme styles */
+ .dark-theme {
+     background-color: #343a40;
+     /* Dark background for the entire page */
+     color: white;
+     /* Default text color for dark mode */
+ }
+
+ .dark-theme .navbar {
+     background-color: #212529;
+     /* Dark background for navbar */
+ }
+
+ .dark-theme .btn-toggle {
+     background-color: #6c757d;
+     /* Dark button background */
+     color: white;
+     /* Button text color */
+ }
+
+ .dark-theme .card {
+     background-color: #495057;
+     /* Dark background for card */
+     color: white;
+     /* Card text color */
+     border: 1px solid #6c757d;
+     /* Card border color */
+ }
+
+ .dark-theme .card-header {
+     background-color: #343a40;
+     /* Dark background for card header */
+     color: white;
+     /* Card header text color */
+ }
+
+ .dark-theme .card-body {
+     background-color: #495057;
+     /* Dark background for card body */
+ }
+
+ .dark-theme .table {
+     background-color: #495057;
+     /* Dark background for table */
+     color: white;
+     /* Table text color */
+ }
+
+ .dark-theme .table thead th {
+     background-color: #343a40;
+     /* Dark background for table headers */
+     color: white;
+     /* Table header text color */
+ }
+
+ .dark-theme .table tbody tr:nth-child(even) {
+     background-color: #6c757d;
+     /* Lighter dark background for even rows */
+ }
+
+ .dark-theme .table tbody tr:nth-child(odd) {
+     background-color: #495057;
+     /* Dark background for odd rows */
+ }
+
+ .dark-theme .table-bordered {
+     border: 1px solid #6c757d;
+     /* Dark border for table */
+ }
+
+ .dark-theme .table-bordered th,
+ .dark-theme .table-bordered td {
+     border: 1px solid #6c757d;
+     /* Dark border for table cells */
+ }
+
+ /* DataTables buttons and other components */
+ .dark-theme .dataTables_wrapper .dataTables_paginate .paginate_button {
+     background-color: #6c757d;
+     /* Dark background for pagination buttons */
+     color: white;
+     /* Pagination button text color */
+ }
+
+ .dark-theme .dataTables_wrapper .dataTables_filter input {
+     background-color: #495057;
+     /* Dark background for filter input */
+     color: white;
+     /* Filter input text color */
+     border-color: #6c757d;
+     /* Border color for filter input */
+ }
+
+ .dark-theme .dataTables_wrapper .dataTables_filter input::placeholder {
+     color: #6c757d;
+     /* Placeholder text color */
+ }
+
+ .dark-theme .dataTables_wrapper .dataTables_length select {
+     background-color: #495057;
+     /* Dark background for length select */
+     color: white;
+     /* Length select text color */
+     border-color: #6c757d;
+     /* Border color for length select */
+ }
